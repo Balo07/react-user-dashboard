@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
@@ -42,7 +43,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.21",
     "jsdom": "^26.1.0",
+    "tailwindcss": "^4.1.12",
     "vite": "^6.2.7",
     "vitest": "^3.0.7"
   }
